@@ -442,7 +442,7 @@ function renderRequestHistory() {
         // Click pe card = deschide admin_request.html
         div.onclick = function(e) {
             if (e.target.classList.contains('delete-request-btn')) return;
-            window.open(`admin_request.html?request=${realIdx}`, '_blank');
+            window.open(`/adminRequest?request=${realIdx}`, '_blank');
         };
         // Click pe iconița de ștergere
         div.querySelector('.delete-request-btn').onclick = function(e) {

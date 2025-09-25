@@ -15,8 +15,8 @@ namespace PasswordManger.Controllers
             return View();
         }
 
-        [Route("/admin")]
-        public IActionResult Admin()
+        [Route("/login")]
+        public IActionResult Login()
         {
             return View();
         }
